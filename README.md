@@ -69,13 +69,13 @@ For the sake of simplicity, the injected ad element can just be an empty `div` w
   */
 ```
 ## Notes about the project
-To make things easy, we bootstrapped the project for you. It contains the main file `inject-mid-content-ads.js` which is pretty much the only file you'll need to touch.
+To make things easy, we bootstrapped the project for you. It contains the main file [`inject-mid-content-ads.js`](https://github.com/micnews/ad-tech-project/blob/master/inject-mid-content-ads.js) which is pretty much the only file you'll need to touch.
 
 To get started run `yarn` in the root directory of this project. (If you don't have yarn you can use npm instead)
 
-There's also a `test.js` spec file that runs a few tests, if those all pass.. that means you got it working correctly! You can run the test by running `yarn test` or `yarn watch` (which will auto run the test file when you save).
+There's also a [`test.js`](https://github.com/micnews/ad-tech-project/blob/master/test.js) spec file that runs a few tests, if those all pass.. that means you got it working correctly! You can run the test by running `yarn test` or `yarn watch` (which will auto run the test file when you save).
 
-In the data folder, you'll find both the `articles.js` and `expected-articles.js`. You should always test against `articles.js` but we provided you the expected result so that you can check what the result should actually look like.
+In the data folder, you'll find both the [`articles.js`](https://github.com/micnews/ad-tech-project/blob/master/data/articles.js) and [`expected-articles.js`](https://github.com/micnews/ad-tech-project/blob/master/data/expected-articles.js). You should always test against `articles.js` but we provided you the expected result so that you can check what the result should actually look like.
 
 
 # FAQ About Exercise
