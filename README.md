@@ -22,12 +22,6 @@ Additionally, pretend we work together:
 * Is it sufficiently documented?
 * Given more time, what would you do next to improve the project that you didn't have time for here?
 
-# FAQ About Exercise
-
-* **Can I use jQuery, React, lodash, or other external libraries?** – Use whatever makes you feel comfortable, but try to consider performance.
-
-* **Who can I send my questions to?** – Stuck on something? Send us an email! Dan (dphillips@mic.com) or Lisa (ellell@mic.com)
-
 # THE EXERCISE: Mid Article Ad Injection using javascript
 
 The team has been tasked with increasing the revenue for each article page view.
@@ -82,3 +76,10 @@ To get started run `yarn` in the root directory of this project. (If you don't h
 There's also a `test.js` spec file that runs a few tests, if those all pass.. that means you got it working correctly! You can run the test by running `yarn test` or `yarn watch` (which will auto run the test file when you save).
 
 In the data folder, you'll find both the `articles.js` and `expected-articles.js`. You should always test against `articles.js` but we provided you the expected result so that you can check what the result should actually look like.
+
+
+# FAQ About Exercise
+
+* **Can I use jQuery, React, lodash, or other external libraries?** – Use whatever makes you feel comfortable, but try to consider performance.
+
+* **Who can I send my questions to?** – Stuck on something? Send us an email! Dan (dphillips@mic.com) or Lisa (ellell@mic.com)
