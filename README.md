@@ -80,6 +80,6 @@ In the data folder, you'll find both the `articles.js` and `expected-articles.js
 
 # FAQ About Exercise
 
-* **Can I use jQuery, React, lodash, or other external libraries?** – Use whatever makes you feel comfortable, but try to consider performance.
+* **Can I use Cheerio, lodash, or other external libraries?** – Absolutely! We'd encourage you to use a library like [Cheerio](https://cheerio.js.org/) to do DOM manipulation outside of the DOM. Use whatever makes you feel comfortable, but try to consider performance.
 
 * **Who can I send my questions to?** – Stuck on something? Send us an email! Dan (dphillips@mic.com) or Lisa (ellell@mic.com)
