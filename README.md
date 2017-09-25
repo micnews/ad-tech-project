@@ -1,6 +1,6 @@
 # Mic Ad Tech Programming Exercise
 
-Hiya! Thanks for getting here. We hope that the following exercise will not be too painful. We're just trying to get a basic understanding of your skills without the stress of white boarding or live coding challenges. This exercise shouldn't take more than a few hours. We understand you have a life outside of interviewing!
+Hiya! Congratulations on getting to this point. The following exercise is meant to give us a basic understanding of your skills without the stress of white boarding or live coding challenges. It shouldn't take more than a few hours. We understand you have a life outside of interviewing!
 
 ## Conversational Assessment
 
@@ -8,8 +8,8 @@ Our goal here is to learn more about the thought process behind your work. You s
 
 * What was the first thing you did after reading the exercise?
 * Why did you chose this approach?
-* Tell us more about this architecture?
-* What specific syntax decisions did you make?
+* Can you tell us more about this architecture?
+* Why did you make these specific syntax decisions?
 * Were there interesting optimizations you discovered?
 * What was the most difficult part of this exercise?
 * What did you do when you got stuck?
@@ -24,18 +24,16 @@ Additionally, pretend we work together:
 
 # THE EXERCISE: Mid Article Ad Injection using javascript
 
-The team has been tasked with increasing the revenue for each article page view.
-We've decided to place ads in the article body, but there are a few specific rules to keep in mind so that we maintain a decent user experience.
+The team has been tasked with increasing the average revenue per user. We've decided to place ads in the article body, but we want to do so in a way that does not hurt the user's ability to consume the story. The implementation should:
 
-1. Place an ad every 400 words (after the paragraph containing the 400th word).
+1. Place an ad every 400 words, so that the ad appears after the paragraph containing the 400th word.
 2. Don't place an ad directly before or after an `<img />`, move it up a paragraph if possible.
-3. Don't place an ad at the end of an article.
+3. Don't place an ad at the end of an article, i.e. after the last paragraph.
 4. If the article has any words contained in the blacklist (case insensitive), don't append any ads.
 
 You'll want to fill out the function `injectMidContentAds` that takes one argument, `article`, which is an object that contains the properties `html` and `blacklist`. The function should return an html string with the appended ads.
 
 For the sake of simplicity, the injected ad element can just be an empty `div` with a class of `ad`
-
 
 ### Simple Example
 
