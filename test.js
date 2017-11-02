@@ -40,11 +40,10 @@ describe('injectMidContentAds()', () => {
   });
 
   describe('Article with Blacklist', () => {
-    document.body.innerHTML = injectMidContentAds(articleWithBlacklist);
-    const ads = document.querySelectorAll('.ad');
+    const html = injectMidContentAds(articleWithBlacklist);
 
     test('0 ads gets added', () => {
-      expect(ads.length).toBe(0);
+      expect(html).toBe(articleWithBlacklist.html);
     });
   });
 });
