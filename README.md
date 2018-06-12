@@ -67,4 +67,4 @@ Init a git repository, complete the test, make your commits locally and then sub
 
 * **Can install and use external libraries?** – Absolutely! Use whatever makes you feel comfortable.
 
-* **Who can I send my questions to?** – Stuck on something? Send us an email! Dan (dphillips@mic.com) or Lisa (ellell@mic.com)
+* **Who can I send my questions to?** – Stuck on something? Send an email to Lisa (ellell@mic.com)
